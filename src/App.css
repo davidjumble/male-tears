@@ -1,0 +1,44 @@
+/* background 222 222 222
+green 60 86 74
+cyan 3 170 239
+light blue 134 203 232 */
+
+html,
+body {
+  text-align: center;
+  background: rgb(222, 222, 222);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* position: relative; */
+  /* margin: auto; */
+  /* max-width: 80%; */
+  border: solid 5px cyan;
+}
+
+.bust {
+  position: relative;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100vh;
+  padding: 100;
+
+  /* background-size: 100% 100%;
+  background-repeat: no-repeat; */
+}
+
+.tears {
+  position: absolute;
+  left: 38%;
+  right: 20%;
+  top: 25%;
+  bottom: 30%;
+  height: 80%;
+  width: 20%;
+  z-index: 2;
+}
