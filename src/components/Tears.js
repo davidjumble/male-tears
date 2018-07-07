@@ -21,7 +21,7 @@ class Tears extends Component {
     if (canvas.getContext) {
       var w = canvas.width;
       var h = canvas.height;
-      ctx.strokeStyle = "rgba(174,194,224,0.5)";
+      ctx.strokeStyle = "rgba(3, 170, 239,0.5)";
       ctx.lineWidth = this.props.tearQuantity;
       ctx.lineCap = "round";
 

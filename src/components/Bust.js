@@ -66,7 +66,9 @@ class Bust extends Component {
             this.handleClick(event);
           }}
         />
-        <Tears tearQuantity={this.state.country + 10} />
+        <div className="tear-container">
+          <Tears tearQuantity={this.state.country + 10} />
+        </div>
         <div className="countries">
           {this.state.countries[this.state.country][0]}
         </div>
