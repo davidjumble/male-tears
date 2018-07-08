@@ -7,15 +7,6 @@ light blue 134 203 232 */
   border: solid 5px cyan;
 } */
 
-html,
-body {
-  text-align: center;
-  background: rgb(222, 222, 222);
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   position: relative;
 
