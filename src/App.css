@@ -9,8 +9,6 @@ light blue 134 203 232 */
 
 .container {
   position: relative;
-
-  border: solid 5px cyan;
 }
 
 .bust {
@@ -23,9 +21,9 @@ light blue 134 203 232 */
 }
 
 .tear-container {
-  margin:auto;
-  position:relative;
-  border: solid 5px lavender;
+  margin: auto;
+  position: relative;
+
   width: 400px;
   height: 654px;
   z-index: 2;
@@ -33,15 +31,24 @@ light blue 134 203 232 */
 
 .tears {
   position: absolute;
-  top: 275px;
-  margin-left: -65px;
-  height: 80%;
-  width:30%;
+  top: 243px;
+  margin-left: -80px;
+  height: 100%;
+  width: 30%;
   z-index: 2;
-  shape-outside: polygon(90%) border-box;
 }
 
 .countries {
-  position: absolute;
-  bottom: 20%;
+  opacity: 0.6;
+  font-size: 130%;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(60, 86, 74);
+  padding-right: 20%;
+  position: relative;
+  bottom: 15%;
+
+  -ms-transform: skewY(10deg); /* IE 9 */
+  -webkit-transform: skewY(10deg); /* Safari 3-8 */
+  transform: skewY(10deg);
+  z-index: 8;
 }
