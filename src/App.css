@@ -7,6 +7,25 @@ light blue 134 203 232 */
   border: solid 5px cyan;
 } */
 
+.info-button {
+  text-align: center;
+  position: fixed;
+  top: 1.2rem;
+  right: 1.3rem;
+  background-color: rgb(3, 170, 239);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.question-mark {
+  color: rgb(232, 234, 240);
+  right: 10px;
+  position: absolute;
+  padding: 10px;
+  font-size: 150%;
+}
+
 .container {
   position: relative;
 }
@@ -33,7 +52,7 @@ light blue 134 203 232 */
   position: absolute;
   top: 243px;
   margin-left: -80px;
-  height: 100%;
+  height: 200%;
   width: 30%;
   z-index: 2;
 }
