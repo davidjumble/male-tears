@@ -17,7 +17,6 @@ const Form = () => {
       </a>
       <p>
         <br />
-        <br />
       </p>
       <a id="return" href="http://tearstearstears.herokuapp.com/">
         Return to the weeping

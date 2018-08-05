@@ -65,7 +65,11 @@ class Bust extends Component {
         }}
       >
         <div className="tear-container">
-          <img className="bust" src={bust} />
+          <img
+            className="bust"
+            src={bust}
+            alt="An illustration of a stone bust. The bust is a bearded man, with animated cyan tears running down his chest"
+          />
           <Tears tearQuantity={this.state.country + 10} />
           <div className="countries">
             {this.state.countries[this.state.country][0]}
