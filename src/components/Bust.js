@@ -6,7 +6,7 @@ class Bust extends Component {
   state = {
     country: 0,
     countries: [
-      ["MALASIA", 1],
+      ["MALAYSIA", 1],
       ["POLAND", 2],
       ["ICELAND", 3],
       ["SWITZERLAND", 4],
@@ -64,9 +64,6 @@ class Bust extends Component {
           this.handleClick(event);
         }}
       >
-        <div className="info-button">
-          <span className="question-mark">?</span>
-        </div>
         <div className="tear-container">
           <img className="bust" src={bust} />
           <Tears tearQuantity={this.state.country + 10} />

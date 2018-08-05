@@ -7,6 +7,8 @@ light blue 134 203 232 */
   border: solid 5px cyan;
 } */
 
+/* need to add -webkit-tap-highlight-color: transparent;   to no highlight class this is the chrome andrios cover*/
+
 .info-button {
   text-align: center;
   position: fixed;
@@ -16,6 +18,7 @@ light blue 134 203 232 */
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  z-index: 4;
 }
 
 .question-mark {
@@ -26,11 +29,37 @@ light blue 134 203 232 */
   font-size: 150%;
 }
 
+#study-link {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 120%;
+  color: rgb(3 170 239);
+  text-decoration: none;
+}
+
+#return {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 120%;
+  color: rgb(56, 155, 197);
+  text-decoration: none;
+}
+
+.form {
+  margin-top: 20%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 120%;
+}
+
 .container {
   position: relative;
 }
 
 .bust {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   position: relative;
   text-align: center;
   display: block;
@@ -52,7 +81,7 @@ light blue 134 203 232 */
   position: absolute;
   top: 243px;
   margin-left: -80px;
-  height: 200%;
+  height: 150%;
   width: 30%;
   z-index: 2;
 }
@@ -69,5 +98,5 @@ light blue 134 203 232 */
   -ms-transform: skewY(10deg); /* IE 9 */
   -webkit-transform: skewY(10deg); /* Safari 3-8 */
   transform: skewY(10deg);
-  z-index: 8;
+  z-index: 3;
 }
